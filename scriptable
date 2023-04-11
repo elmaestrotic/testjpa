@@ -1,0 +1,1 @@
+create table users (id bigint not null auto_increment, apellido varchar(255), email varchar(50) not null, nombre varchar(255), password varchar(255), telefono varchar(255), primary key (id)) engine=InnoDB
