@@ -4,7 +4,7 @@ La BD se llama Test_BD y la tabla users
 La estructura dle proyecto es la siguiente:
 
 *Paquete controller: contiene la clase UserCOntroller, que procesa las request mediante APi que mapea las solicitudes a los respectivos métodos para el CRUD,
-                    por ello crea una referencia a USerService aplicando el principio de inversión de depndencias(IoD).
+                    por ello crea una referencia a USerService aplicando el principio de inversión de dependencias(IoD).
 
 *Paquete entity:(model) contiene el POJO User
 
