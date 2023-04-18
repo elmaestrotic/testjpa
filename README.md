@@ -13,7 +13,7 @@ Su objetivo es permitir crear una referencia(inyección de dependencia) en la cl
 findAll, finadAll(Pageable pg), findByID(id), save y delete. Permitiendo el CRUD con la BD.
 
 *Paquete service: contiene la interfaz UserService<--interfaz que define los métodos abtractos del CRUD(los anteriores, findAll, save, etc)
-                  También contiene una Clase USerSServiceImpl, que implementa la interfaz anterior(UserService) y sobreescribe sus métodos ↑
+                  También contiene una Clase USerServiceImpl, que implementa la interfaz anterior(UserService) y sobreescribe sus métodos ↑
                   Esta clase crea una referencia de tipo UserRepository(inyección de dependencias).
                   
                  
