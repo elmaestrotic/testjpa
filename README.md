@@ -12,7 +12,7 @@ La estructura dle proyecto es la siguiente:
 Su objetivo es permitir crear una referencia(inyección de dependencia) en la clase UserServImpl, que use los métodos de JPARepository como
 findAll, finadAll(Pageable pg), findByID(id), save y delete. Permitiendo el CRUD con la BD.
 
-*Paquete service: contiene la interfaz UserService<--interfaz que define los métodos abtractos del CRUD(los anteriores, findaAll, save, etc)
+*Paquete service: contiene la interfaz UserService<--interfaz que define los métodos abtractos del CRUD(los anteriores, findAll, save, etc)
                   También contiene ña Clase USerSServiceImpl, que implementa la interfaz anterior(UserService) y sobreescribe sus métodos ↑
                   Esta clase crea una referencia de tipo UserRepository(inyección de dependencias).
                   
