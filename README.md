@@ -19,4 +19,4 @@ findAll, finadAll(Pageable pg), findByID(id), save y delete. Permitiendo el CRUD
                  
 
 ***Para probar el proyecto se recomienda hacer pruebas con PostMan y editar el archivo aplication.properties sgún se rquiera, ya sea para crear la BD y la tabla o Update
-si se desea trabajar con la BD existente.
+si se desea trabajar con una BD existente.
